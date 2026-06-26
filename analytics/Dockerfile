@@ -1,5 +1,5 @@
 # Use a Python base image
-FROM python:3.10
+FROM public.ecr.aws/docker/library/python:3.10-slim
 
 # Set the working directory
 WORKDIR /app
