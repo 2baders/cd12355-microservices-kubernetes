@@ -16,4 +16,6 @@ for releasing new builds:
 -replace the URI and imagetag in deployment.yaml to the new one.
 -kubectl -f apply deployment.yaml
 
-Thanks for viewing my project, please reply with feedback - Bader Alotaibi
+Thanks for viewing my project, please reply with feedback 
+
+- Bader Alotaibi
