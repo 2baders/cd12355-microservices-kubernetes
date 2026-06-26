@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt && pip install werkzeug==2.2.2
 
 # Copy the rest of the app
 COPY . .
